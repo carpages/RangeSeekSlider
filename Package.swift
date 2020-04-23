@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "RangeSeekSlider",
+    platforms: [.iOS(.v9)],
     products: [
         .library(name: "RangeSeekSlider", targets: ["RangeSeekSlider"])
     ],

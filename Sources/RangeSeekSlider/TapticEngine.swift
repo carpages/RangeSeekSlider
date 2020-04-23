@@ -6,6 +6,7 @@
 //
 //
 
+#if os(iOS)
 import UIKit
 
 /// Generates iOS Device vibrations by UIFeedbackGenerator.
@@ -150,3 +151,4 @@ open class TapticEngine {
         }
     }
 }
+#endif
